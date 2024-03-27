@@ -66,3 +66,23 @@ sayMyName();
 function sayMyName() {
     console.log("Michelle");
 }
+
+//arrow function
+
+const sayMyName = () => {
+    console.log("Michelle");
+}
+
+sayMyName
+
+//Function() constructor
+//Create a new object
+
+function Person(name) {
+    this.name = name;
+    this.walk = function() {
+        return this.name + " is walking";
+    }
+}
+
+const michelle = new Person("Michelle");
