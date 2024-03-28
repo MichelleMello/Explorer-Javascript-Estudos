@@ -1,12 +1,12 @@
-// Criar um app de frases motivacionais
+// Create an app of motivacional phrases
 
-//função para repetir as frases
+//Function to repeat the phrases
 
 //declaration - declaração da função
 //function statement 
 
 function createPhrase() {
-    //novo escopo aberto pela function
+    //New scope opened by the function
 
     console.log("Keep going!");
     console.log("Don't give up!");
@@ -37,15 +37,15 @@ console.log(`The sum is ${sum(number1,number2)}. Number 1 is ${number1} and numb
 
 console.log("End of the sum function");
 
-//Função é um liquidificador
+//Example: function is a blender
 
-function fazerSuco(fruta1, fruta2) {
-    return fruta1 + fruta2;
+function makeJuice(fruit1, fruit2) {
+    return fruit1 + fruit2;
 }
 
-const copo = fazerSuco("banana", "maçã");
+const glass = makeJuice("banana", "apple");
 
-console.log(copo);
+console.log(glass);
 
 //Function scope
 let subject = "create video";
